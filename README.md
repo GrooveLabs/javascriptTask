@@ -1,9 +1,10 @@
 # Engineering Homework Assignment - Memory
+The purpose of this exercise is to get a gauge of how you work, build, and communicate through your code in the context of a project with features and requirements. 
 
 *Note: This task should no longer than 1 work day to complete.*
 
 ## Instructions:
-We’re looking for of your best work in implementing a solution for the exercise below. Feel free to use what you most feel comfortable with.
+We’re looking for of your best work in implementing a solution for the exercise below. Feel free to use whatever technologies you most feel comfortable with. Submit the code as a PR, or through a public repo. We should be able to  "play" the game in the browser. In instructions are needed (`npm install`, etc), please include instructions.
 
 ### Main Requirement
 Build an interactive application that let’s a single player match sets of 2 cards in a matching game.
