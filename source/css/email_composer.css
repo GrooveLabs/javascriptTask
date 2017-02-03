@@ -1,0 +1,65 @@
+
+
+body {
+  margin: 25px;
+}
+
+.window {
+  position: fixed;
+  right: 25px;
+  bottom: 0px;
+  width: 350px;
+}
+
+.max-window {
+  height: 350px;
+}
+
+.min-window {
+  height: auto;
+}
+
+.min-window .panel-body, .min-window .panel-footer {
+  display: none;
+}
+
+.min-window .min-max-trigger {
+  -ms-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+}
+
+.panel-body {
+  height: 261px;
+  padding: 0px;
+}
+
+.panel-body input {
+  width: 100%;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #DDD;
+  padding: 5px;
+}
+
+.panel-body .email-body {
+  overflow: auto;
+  height: 199px;
+  padding: 5px;
+}
+
+.panel-default > .panel-heading {
+  color: white;
+  background-color: #404040;
+}
+
+.trigger {
+  cursor: pointer;
+  padding-left: 8px;
+}
+
+
+
+
+
