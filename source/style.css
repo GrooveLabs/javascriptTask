@@ -1,0 +1,93 @@
+.add-window {
+  min-width: 350px;
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.add-window .header {
+  background-color: #333;
+  color: white;
+}
+
+.add-window div {
+  padding: 5px 20px;
+}
+
+.description {
+  margin: 10px 0;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.button-bar {
+  text-align: right;
+}
+
+input[type=text] {
+  width: 200px;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+}
+
+#compose{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#FF0000; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:#f3f3f3;
+font-size:1.1em;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+#compose:hover, #compose:focus{
+
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+.mainCompose{
+  display: none;
+}
+
+#send{
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	padding:5px 20px; /*add some padding to the inside of the button*/
+	background:#000FFF; /*the colour of the button*/
+	border:1px solid #33842a; /*required or the default border for the browser will appear*/
+	/*give the button curved corners, alter the size as required*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	/*give the button a drop shadow*/
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+	/*style the text*/
+	color:#f3f3f3;
+	font-size:1.1em;
+	float: left;
+}
+.header{
+	cursor: pointer;
+}

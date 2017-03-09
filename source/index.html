@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ComposeWindow</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="custom.js"></script>
+	<head>
+	<body>
+	<div>
+	  <div>
+	    <!-- <button ng-click="startAdd()">COMPOSE</button> -->
+	    <button id="compose">COMPOSE</button>
+	    <div class="mainCompose">
+	      <form class="add-window">
+	        <div class='header'>
+	        	Test Email
+	        </div>
+	        <div class='inner'>
+	          <div>
+	            <label>To: </label>
+	            <input type="text" class="email_to" required>
+	          </div>
+	          <div>
+	            <label>Subject: </label>
+	            <input type="text" class="email_subject" required>
+	          </div>
+	          <div>
+	            <label>Content: </label>
+	            <textarea class="email_content" required></textarea>
+	          </div>
+	          <div class='button-bar'>
+	            <button id="send">Send</button>
+	          </div>
+	        </div>
+	      </form>
+	  	</div>
+	  </div>
+	</div>
+	</body>
+</html>
